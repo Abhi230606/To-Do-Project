@@ -1,6 +1,7 @@
 To-Do List App:
 
-Hey there! This is a simple and clean To-Do List web application I built to help organize daily tasks. It’s lightweight, easy to use, and built with plain HTML, CSS, and JavaScript—no fancy frameworks needed.
+Hi there! This is my very first web development project, built during a Build-a-thon. The goal was to create a functional and simple To-Do List app while learning the basics of front-end development. I built the To-Do List App using HTML, CSS, and JavaScript. AI tools were used to brainstorm ideas and assist with code optimization, but all implementation and customization were done by me. This project helped me learn web development basics, project planning, and problem-solving under time constraints.
+
 
 Features:
 
@@ -17,4 +18,4 @@ HTML
 CSS
 JavaScript
 
-This app was a fun way to practice JavaScript DOM manipulation and improve my front-end skills. Feel free to check it out, use it, or suggest improvements!
+This project was a fun and educational experience that helped me kickstart my web development journey. I’m excited to continue building more projects and improving my skills! Feel free to check it out, use it, or suggest improvements!
