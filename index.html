@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Categorized To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>🎯 Categorized To-Do List</h1>
+
+  <div class="input-bar">
+    <input id="task-input" type="text" placeholder="New task...">
+    <input id="deadline-input" type="datetime-local">
+    <select id="category-select">
+      <option value="academics">📚 Academics</option>
+      <option value="fitness">💪 Fitness</option>
+      <option value="personal">🏡 Personal</option>
+      <option value="growth">🎯 Growth</option>
+      <option value="social">👥 Social</option>
+      <option value="selfcare">🧘 Self-care</option>
+    </select>
+    <select id="priority-select">
+      <option value="high">Immediate</option>
+      <option value="medium">Soon</option>
+      <option value="low">Later</option>
+    </select>
+    <button id="add-task">Add Task</button>
+  </div>
+
+  <!-- Category grid -->
+  <div class="categories">
+    <div class="category academics">
+      <h3>📚 Academics</h3>
+      <ul id="academics-list"></ul>
+    </div>
+
+    <div class="category fitness">
+      <h3>💪 Fitness</h3>
+      <ul id="fitness-list"></ul>
+    </div>
+
+    <div class="category personal">
+      <h3>🏡 Personal</h3>
+      <ul id="personal-list"></ul>
+    </div>
+
+    <div class="category growth">
+      <h3>🎯 Growth</h3>
+      <ul id="growth-list"></ul>
+    </div>
+
+    <div class="category social">
+      <h3>👥 Social</h3>
+      <ul id="social-list"></ul>
+    </div>
+
+    <div class="category selfcare">
+      <h3>🧘 Self-care</h3>
+      <ul id="selfcare-list"></ul>
+    </div>
+  </div>
+
+  <!-- Motivational Quote -->
+  <div id="quote-box"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
