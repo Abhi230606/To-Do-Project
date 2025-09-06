@@ -37,30 +37,8 @@ input, select, button {
   transition: 0.3s;
 }
 
-/* Glass effect for select dropdowns */
 select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   cursor: pointer;
-}
-
-/* Dropdown option tints for categories */
-option[value="academics"] { background: rgba(173, 216, 230, 0.6); }
-option[value="fitness"]   { background: rgba(144, 238, 144, 0.6); }
-option[value="personal"]  { background: rgba(255, 182, 193, 0.6); }
-option[value="growth"]    { background: rgba(255, 255, 153, 0.6); }
-option[value="social"]    { background: rgba(221, 160, 221, 0.6); }
-option[value="selfcare"]  { background: rgba(255, 228, 181, 0.6); }
-
-/* Dropdown option tints for priorities */
-option[value="high"]   { background: rgba(255, 99, 71, 0.6); }
-option[value="medium"] { background: rgba(255, 165, 0, 0.6); }
-option[value="low"]    { background: rgba(144, 238, 144, 0.6); }
-
-option {
-  color: #222;
-  font-weight: 500;
 }
 
 button {
@@ -72,6 +50,33 @@ button {
 button:hover {
   background: rgba(255,255,255,0.45);
   color: #000;
+}
+
+/* Streak box */
+#streak-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#streak {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#reset-streak {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#reset-streak:hover {
+  background: rgba(255,255,255,0.5);
 }
 
 /* Category grid */
@@ -91,7 +96,6 @@ button:hover {
   transition: 0.3s;
 }
 
-/* Color tint for each category box */
 .academics { background: rgba(173, 216, 230, 0.35); }
 .fitness   { background: rgba(144, 238, 144, 0.35); }
 .personal  { background: rgba(255, 182, 193, 0.35); }
@@ -107,7 +111,6 @@ button:hover {
   margin-bottom: 10px;
   font-size: 1.2rem;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
 }
 
 ul {
