@@ -1,21 +1,17 @@
 To-Do List App:
 
-Hi there! This is my very first web development project, built during a Build-a-thon. The goal was to create a functional and simple To-Do List app while learning the basics of front-end development. I built the To-Do List App using HTML, CSS, and JavaScript. AI tools were used to brainstorm ideas and assist with code optimization, but all implementation and customization were done by me. This project helped me learn web development basics, project planning, and problem-solving under time constraints.
+Hi there! This is the upgraded version of my to-do list app. I’ve added some extra stuff to make it fun and motivating, not just a plain checklist.
 
+New Features
 
-Features:
+Streak System → counts how many tasks you finish in a row. If you miss, it resets back to 0.
+Milestone Celebrations → hit 10, 20, 30 completed tasks in a row and you get a full-screen confetti blast.
+Daily Summary → shows how many tasks you added and completed today.
+Duplicate Task Check → if you try to add the same task 3 times or more, it asks if you actually want to add it again (like Google search suggestions).
+Deadline Sorting → tasks automatically sort by deadline so you don’t lose track.
 
-Add Tasks – Quickly add anything you need to get done.  
-Mark as Complete – Check off tasks as you finish them.  
-Delete Tasks – Remove tasks you no longer need.  
-Responsive Design – Works smoothly on desktop and mobile.  
+Visuals
 
-Start adding, checking off, and deleting tasks!
-
-
-Tech Stack:
-HTML
-CSS
-JavaScript
-
-This project was a fun and educational experience that helped me kickstart my web development journey. I’m excited to continue building more projects and improving my skills! Feel free to check it out, use it, or suggest improvements!
+Confetti falls from the top of the screen, full width.
+Motivational quotes pop up when you complete tasks.
+Each task shows priority color (red = high, orange = medium, green = low).
